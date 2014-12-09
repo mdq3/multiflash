@@ -8,3 +8,6 @@ A multi-featured flashlight app for Firefox OS
     /lib      - Libraries used in project
     /style    - Style sheets and icons
 
+
+<div align="center"><a href="https://github.com/mdq3/multiflash"><img src="https://i.imgur.com/XiD7YrU.png?1" alt="Multiflash" /></a></div>
+
