@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <title>MultiFlash</title>
+    <link href="style/style_sheet.css" type="text/css" rel="stylesheet" />
+    <script src="lib/jquery-2.1.1.min.js" defer></script>
+    <script src="js/flash.js" defer></script>
+    <script src="js/morse.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <h1>MultiFlash</h1>
+    
+    <div id="flash-mode">
+      <div id="flash-button" class="round-button button-up">On</div>
+    </div>
+    
+    <div id="morse-mode">
+      <div id="message-input" class="text-area" contenteditable>SOS</div>
+      <div id="morse-control">
+        <div id="morse-start-button" class="round-button button-up">Start</div>
+        <div id="morse-stop-button" class="round-button button-up">Stop</div>
+        <div id="morse-clear-button" class="round-button button-up">Clear</div>
+      </div>  
+    </div>
+    
+    <div id="error">
+      <p>Camera flash not found!</p>
+    </div>
+    
+    <footer>
+      <div id="flash-mode-button" class="round-button button-up">&#128161</div>
+      <div id="morse-mode-button" class="round-button button-up">• - -</div>
+    </footer>
+    
+  </body>
+</html>

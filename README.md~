@@ -4,7 +4,6 @@ A multi-featured flashlight app for Firefox OS
 
 ## Project Directories ##
 
-    /         - Root directory with app manifest, main HTML, README & other info
     /js       - JavaScript files for project
     /lib      - Libraries used in project
     /style    - Style sheets and icons

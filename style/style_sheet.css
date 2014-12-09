@@ -1,0 +1,120 @@
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%
+  border: 0px solid green;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  margin: 0;
+  border: 0px solid blue;
+}
+
+h1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  border: 0px solid white;
+}
+
+.round-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.button-up {
+  background-color: #464646;
+}
+
+.button-down {
+  background-color: #262626;
+}
+
+
+#flash-mode, #morse-mode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+  border: 0px solid white;
+}
+
+#flash-button {
+  /*display: inline-block;*/
+  font-size: 200%;
+  width: 150px;
+  height: 150px;
+  /*margin: 0 auto;
+  line-height: 150px;
+  /*position: relative;
+  top: 50%;
+  transform: translateY(-50%);*/
+}
+
+footer { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  font-size: 150%;
+  background-color: black;
+  border: 0px solid blue;
+}
+
+#flash-mode-button, #morse-mode-button {
+  width: 60px;
+  height:60px;
+  line-height: 60px;
+  margin: 0 10px 0 10px;
+  /*background-color: black;*/
+}
+
+#morse-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  margin: 10px auto;
+  border: 0px solid blue;
+}
+
+#morse-start-button, #morse-stop-button, #morse-clear-button {
+  width: 50px;
+  height:50px;
+  line-height: 50px;
+  margin: 0 5px 0 5px;
+}
+
+.text-area {
+  overflow: scroll;
+  word-wrap: break-word;
+  border-radius: 5px;
+  width: 80%;
+  height: 40%;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: left;
+  color: black;
+  background-color: white;
+}
+
+.text-highlight {
+  color: white;
+  background-color: red;
+}
+
+

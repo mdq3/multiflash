@@ -1,0 +1,23 @@
+{
+  "name": "MultiFlash",
+  "version": "0.5", 
+  "description": "A multi-featured flash light app.",
+  "developer": {
+    "name": "Michael Quested",
+    "url": "https://github.com/mdq3"
+  },
+  "launch_path": "/index.html",
+  "orientation": "portrait",
+  "icons": {
+    "16": "/style/icons/icon16x16.png",
+    "48": "/style/icons/icon48x48.png",
+    "60": "/style/icons/icon60x60.png",
+    "128": "/style/icons/icon128x128.png"
+  },
+  "type": "privileged",
+  "permissions": {
+    "camera": {
+      "description": "Access to the camera flash's torch functionality."
+    }
+  }
+}
