@@ -1,4 +1,6 @@
-# Multiflash <img src="https://raw.githubusercontent.com/mdq3/multiflash/master/style/icons/icon128x128.png" alt="Multiflash Icon" /> #
+<div align="center"><img src="https://raw.githubusercontent.com/mdq3/multiflash/master/style/icons/icon128x128.png" alt="Multiflash Icon" /></div>
+
+# <div align="center">Multiflash</div> #
 
 A multi-featured flashlight app for Firefox OS.
 
