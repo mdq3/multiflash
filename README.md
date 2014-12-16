@@ -6,6 +6,8 @@ A multi-featured flashlight app for Firefox OS.
 
 Includes regular flashlight mode and morse code mode.
 
+This app has been published on the Firefox Marketplace at https://marketplace.firefox.com/app/multiflash
+
 ## Project Directories ##
 
     /         - Root directory with app manifest, main HTML, README & other info
