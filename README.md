@@ -1,6 +1,8 @@
-# <img src="https://raw.githubusercontent.com/mdq3/multiflash/master/style/icons/icon128x128.png" alt="Multiflash Icon" /> Multiflash #
+# Multiflash <img src="https://raw.githubusercontent.com/mdq3/multiflash/master/style/icons/icon128x128.png" alt="Multiflash Icon" /> #
 
-A multi-featured flashlight app for Firefox OS
+A multi-featured flashlight app for Firefox OS.
+
+Includes regular flashlight mode and morse code mode.
 
 ## Project Directories ##
 
