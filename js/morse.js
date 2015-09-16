@@ -14,7 +14,7 @@
   GNU General Public License for more details.
 
   You should have received a copy of the GNU General Public License
-  along with Multiflash.  If not, see <http://www.gnu.org/licenses/>.
+  along with Multiflash.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 /**
@@ -211,120 +211,82 @@ var MORSE_MODE = (function() {
    * Lookup of morse code based on given character.
    */
   function getCode(char) {
-    var code;
     switch(char) {
       case "A":
-        code = ".-"; 
-        break;
+        return ".-";
       case "B":
-        code = "-...";
-        break;
+        return "-...";
       case "C":
-        code = "-.-.";
-        break;
+        return "-.-.";
       case "D":
-        code = "-..";
-        break;
+        return "-..";
       case "E":
-        code = ".";
-        break;
+        return ".";
       case "F":
-        code = "..-.";
-        break;
+        return "..-.";
       case "G":
-        code = "--.";
-        break;
+        return "--.";
       case "H":
-        code = "....";
-        break;
+        return "....";
       case "I":
-        code = "..";
-        break;
+        return "..";
       case "J":
-        code = ".---";
-        break;
+        return ".---";
       case "K":
-        code = "-.-";
-        break;
+        return "-.-";
       case "L":
-        code = ".-..";
-        break;
+        return ".-..";
       case "M":
-        code = "--";
-        break;
+        return "--";
       case "N":
-        code = "-.";
-        break;
+        return "-.";
       case "O":
-        code = "---";
-        break;
+        return "---";
       case "P":
-        code = ".--.";
-        break;
+        return ".--.";
       case "Q":
-        code = "--.-";
-        break;
+        return "--.-";
       case "R":
-        code = ".-.";
-        break;
+        return ".-.";
       case "S":
-        code = "...";
-        break;
+        return "...";
       case "T":
-        code = "-";
-        break;
+        return "-";
       case "U":
-        code = "..-";
-        break;
+        return "..-";
       case "V":
-        code = "...-";
-        break;
+        return "...-";
       case "W":
-        code = ".--";
-        break;
+        return ".--";
       case "X":
-        code = "-..-";
-        break;
+        return "-..-";
       case "Y":
-        code = "-.--";
-        break;
+        return "-.--";
       case "Z":
-        code = "--..";
-        break;
+        return "--..";
       case "1":
-        code = ".----";
-        break;
+        return ".----";
       case "2":
-        code = "..---";
-        break;
+        return "..---";
       case "3":
-        code = "...--";
-        break;
+        return "...--";
       case "4":
-        code = "....-";
-        break;
+        return "....-";
       case "5":
-        code = ".....";
-        break;
+        return ".....";
       case "6":
-        code = "-....";
-        break;
+        return "-....";
       case "7":
-        code = "--...";
-        break;
+        return "--...";
       case "8":
-        code = "---..";
-        break;
+        return "---..";
       case "9":
-        code = "----.";
-        break;
+        return "----.";
       case "0":
-        code = "-----";
-        break;
+        return "-----";
       default:
-        code = " ";
-    } 
-    return code;
+        return " ";
+    }
   }
 
   return public;
